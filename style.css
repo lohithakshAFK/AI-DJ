@@ -1,0 +1,70 @@
+.heading{
+    width:100%;
+    font-size: 25px !important;
+    margin:0px;
+}
+
+.notee{
+    color:darkblue;
+    font-size:16px;
+}
+
+.heading:hover{
+    background-color: cyan;
+    color:black;
+}
+
+body{
+    background-size: cover;
+}
+
+.speeed{
+    float:left;
+}
+
+.speedyimg{
+    width:200px;
+    border-radius:100px;
+}
+
+.h3_speed, .h3_volume{
+    background-color: darkblue;
+    color:white;
+    margin:15px;
+    padding:10px;
+}
+
+.h3_speed:hover, .h3_volume:hover{
+    background-color: white;
+    color:black;
+}
+
+.volume{
+    float:right;
+}
+
+.play{
+    width:20%;
+    font-size:25px;
+    box-shadow: 5px 5px 5px white;
+}
+
+canvas{
+    border:2px solid white;
+    border-radius:75px;
+    animation-name: y;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes y {
+    from{
+        box-shadow:5px 5px 5px white;
+    }
+    to{
+        box-shadow:5px 5px 5px cyan;
+    }
+}
+
+
